@@ -1,0 +1,77 @@
+.denyIcon {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 1.25rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #9a2a22;
+  background: rgba(200, 80, 70, 0.12);
+  border: 1px solid rgba(200, 80, 70, 0.22);
+}
+
+.heroBrand {
+  gap: 0.85rem;
+  margin-bottom: 1.25rem;
+}
+
+.emailHint {
+  margin: 0 0 1.25rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: #5c6b5f;
+  text-align: center;
+  word-break: break-all;
+}
+
+.emailHint strong {
+  color: #0f1a12;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  align-items: stretch;
+  margin-top: 0.25rem;
+}
+
+.primary {
+  display: block;
+  width: 100%;
+  padding: 0.7rem 1.1rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  background: #1f6b3a;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.primary:hover {
+  background: #185a30;
+}
+
+.primary:focus-visible {
+  outline: 2px solid #1f6b3a;
+  outline-offset: 2px;
+}
+
+.serverMessage {
+  margin: 0 0 1.1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  background: #fef5f4;
+  border: 1px solid rgba(200, 80, 70, 0.22);
+  color: #6a2820;
+  font-size: 0.87rem;
+  line-height: 1.5;
+  text-align: left;
+}

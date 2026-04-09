@@ -31,28 +31,6 @@
   "map": {
     "title": "Standort Hösbach"
   },
-  "services": {
-    "title": "Unsere Dienstleistungen",
-    "description": "Wir bieten eine umfassende Palette an professionellen Garten- und Landschaftsbaudienstleistungen, um alle Ihre Anforderungen im Außenbereich zu erfüllen.",
-    "items": {
-      "lawnCare": {
-        "title": "Rasenpflege & Wartung",
-        "description": "Regelmäßiges Mähen, Düngen, Belüften und Unkrautbekämpfung, um Ihren Rasen das ganze Jahr über gesund und lebendig zu halten."
-      },
-      "gardenDesign": {
-        "title": "Gartengestaltung",
-        "description": "Maßgeschneiderte Gartenentwürfe, die Ihren Stil widerspiegeln und Ihren Bedürfnissen entsprechen, von modern-minimalistisch bis üppig-traditionell."
-      },
-      "planting": {
-        "title": "Pflanzservice",
-        "description": "Fachkundige Auswahl und Installation von Bäumen, Sträuchern, Blumen und anderen Pflanzen, die für Ihr lokales Klima geeignet sind."
-      },
-      "irrigation": {
-        "title": "Bewässerungssysteme",
-        "description": "Planung und Installation effizienter Bewässerungssysteme, um sicherzustellen, dass Ihr Garten optimal bewässert wird."
-      }
-    }
-  },
   "whyChoose": {
     "title": "Warum uns wählen",
     "description": "Mit über 15 Jahren Erfahrung in der Branche sind wir stolz darauf, außergewöhnlichen Service und Ergebnisse zu liefern.",
@@ -81,7 +59,7 @@
     "items": [
       {
         "question": "In welchen Gebieten sind Sie tätig?",
-        "answer": "Wir bieten unsere Garten- und Landschaftsbaudienstleistungen derzeit in ganz Grüne Stadt und im Umkreis von 50 Kilometern an."
+        "answer": "Wir bieten unsere Garten- und Landschaftsbaudienstleistungen in ganz Grüne Stadt und im Umkreis von 50 Kilometern an. Bei größeren Projekten sind nach Absprache auch weitere Entfernungen möglich — je nach Projektumfang und Terminlage; nennen Sie uns Ihre Adresse, dann prüfen wir das gern."
       },
       {
         "question": "Bieten Sie kostenlose Beratungen an?",

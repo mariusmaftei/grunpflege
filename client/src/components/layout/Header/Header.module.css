@@ -9,9 +9,9 @@
 }
 
 .headerContainer {
-  max-width: 1200px;
+  max-width: 1520px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 clamp(1rem, 3vw, 2.5rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,10 +32,9 @@
 
 .logoImage {
   height: 60px;
-  width: 100px;
-  aspect-ratio: 1 / 1;
+  width: auto;
+  max-width: 180px;
   object-fit: contain;
-  filter: brightness(0) invert(1); /* Makes the logo white */
 }
 
 .headerRight {

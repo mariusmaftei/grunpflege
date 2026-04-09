@@ -1,4 +1,8 @@
 {
+  "lightbox": {
+    "close": "Close preview",
+    "dialogLabel": "Enlarged project photo"
+  },
   "title": "Our Project Gallery",
   "description": "Browse our collection of completed landscaping and garden projects. Filter by category to find the inspiration you're looking for.",
   "filter": {
@@ -8,8 +12,19 @@
       "gardens": "Garden Design",
       "lawns": "Lawn Care",
       "trees": "Tree Planting"
+    },
+    "apiCategories": {
+      "gardens": "Garden design",
+      "lawn-care": "Lawn care",
+      "tree-trimming-removal": "Tree trimming & removal",
+      "planting": "Planting",
+      "irrigation": "Irrigation",
+      "landscaping": "Landscaping",
+      "seasonal-cleaning": "Seasonal cleaning"
     }
   },
+  "loading": "Loading gallery…",
+  "loadError": "Could not load images. Check that the API is running and CORS allows this site.",
   "emptyState": "No projects found in this category. Please try a different filter.",
   "gardenDescriptions": {
     "perennialPath": "Perennial Garden Path Design",

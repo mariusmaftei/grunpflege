@@ -273,31 +273,4 @@ export const getImagesByCategory = (category) => {
   return galleryData[category] || [];
 };
 
-// Configuration for the home page carousel rows
-export const getHomePageCarouselConfig = () => {
-  return [
-    {
-      // Row 1: Garden images
-      images: galleryData.gardens,
-      duration: 35,
-      reverse: false,
-      rowId: "gardens-row",
-    },
-    {
-      // Row 2: Lawn images (reversed direction)
-      images: galleryData.lawns,
-      duration: 45,
-      reverse: true,
-      rowId: "lawns-row",
-    },
-    {
-      // Row 3: Tree images
-      images: galleryData.trees,
-      duration: 40,
-      reverse: false,
-      rowId: "trees-row",
-    },
-  ];
-};
-
 export default galleryData;

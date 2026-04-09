@@ -6,16 +6,17 @@ import commonDE from "./locales/de/common.json";
 import homeDE from "./locales/de/home.json";
 import galleryDE from "./locales/de/gallery.json";
 import contactDE from "./locales/de/contact.json";
+import servicesDE from "./locales/de/services.json";
 import commonEN from "./locales/en/common.json";
 import homeEN from "./locales/en/home.json";
 import galleryEN from "./locales/en/gallery.json";
 import contactEN from "./locales/en/contact.json";
+import servicesEN from "./locales/en/services.json";
 
-// Get stored language from localStorage or use default
-const getStoredLanguage = () => {
-  if (typeof window !== "undefined") {
-    return localStorage.getItem("language") || "de";
-  }
+const getInitialLanguage = () => {
+  if (typeof window === "undefined") return "de";
+  const pathname = window.location.pathname;
+  if (pathname === "/en" || pathname.startsWith("/en/")) return "en";
   return "de";
 };
 
@@ -29,20 +30,22 @@ i18n
         home: homeDE,
         gallery: galleryDE,
         contact: contactDE,
+        services: servicesDE,
       },
       en: {
         common: commonEN,
         home: homeEN,
         gallery: galleryEN,
         contact: contactEN,
+        services: servicesEN,
       },
     },
-    lng: getStoredLanguage(), // use stored language or default
+    lng: getInitialLanguage(),
     fallbackLng: "en",
     interpolation: {
       escapeValue: false, // react already safes from xss
     },
-    ns: ["common", "home", "gallery", "contact"], // namespaces
+    ns: ["common", "home", "gallery", "contact", "services"],
     defaultNS: "common",
   });
 

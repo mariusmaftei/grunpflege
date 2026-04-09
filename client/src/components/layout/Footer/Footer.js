@@ -12,12 +12,24 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
+import { SERVICE_DEFINITIONS } from "../../../data/services-config";
+import {
+  getLocaleFromPathname,
+  localizePath,
+  pathServiceCategory,
+} from "../../../constants/paths";
 import styles from "./Footer.module.css";
+
+const FOOTER_SERVICE_SLUGS = SERVICE_DEFINITIONS.filter(
+  (s) => s.i18nKey !== "seasonalCleaning"
+);
 
 export default function Footer() {
   const { t } = useTranslation("common");
+  const { pathname } = useLocation();
+  const locale = getLocaleFromPathname(pathname);
   const currentYear = new Date().getFullYear();
 
   return (
@@ -77,34 +89,16 @@ export default function Footer() {
           <div className={styles.footerColumn}>
             <h3 className={styles.footerTitle}>{t("footer.services")}</h3>
             <ul className={styles.footerList}>
-              <li className={styles.footerListItem}>
-                <Link to="/">
-                  <FontAwesomeIcon icon={faAngleRight} /> {t("footer.lawnCare")}
-                </Link>
-              </li>
-              <li className={styles.footerListItem}>
-                <Link to="/">
-                  <FontAwesomeIcon icon={faAngleRight} />{" "}
-                  {t("footer.gardenDesign")}
-                </Link>
-              </li>
-              <li className={styles.footerListItem}>
-                <Link to="/">
-                  <FontAwesomeIcon icon={faAngleRight} /> {t("footer.planting")}
-                </Link>
-              </li>
-              <li className={styles.footerListItem}>
-                <Link to="/">
-                  <FontAwesomeIcon icon={faAngleRight} />{" "}
-                  {t("footer.irrigation")}
-                </Link>
-              </li>
-              <li className={styles.footerListItem}>
-                <Link to="/">
-                  <FontAwesomeIcon icon={faAngleRight} />{" "}
-                  {t("footer.landscaping")}
-                </Link>
-              </li>
+              {FOOTER_SERVICE_SLUGS.map((s) => (
+                <li key={s.slug} className={styles.footerListItem}>
+                  <Link
+                    to={localizePath(pathServiceCategory(s.slug), locale)}
+                  >
+                    <FontAwesomeIcon icon={faAngleRight} />{" "}
+                    {t(`footer.${s.i18nKey}`)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

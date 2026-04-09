@@ -12,14 +12,37 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 1%,
+    #000 95%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 1%,
+    #000 98%,
+    transparent
+  );
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
 
 .carouselTrack {
   display: flex;
   gap: 1.5rem;
   animation: scroll linear infinite;
+  animation-play-state: running;
   width: fit-content;
   padding: 0.75rem 0;
+}
+
+.carouselRow:hover .carouselTrack {
+  animation-play-state: paused;
 }
 
 .carouselItem {

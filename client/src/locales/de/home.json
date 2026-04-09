@@ -37,30 +37,53 @@
   "services": {
     "title": "Unsere Dienstleistungen",
     "description": "Wir bieten eine umfassende Palette an Garten- und Landschaftsbaudienstleistungen, um alle Ihre Anforderungen im Außenbereich zu erfüllen.",
+    "findOutMore": "Mehr erfahren",
     "items": {
       "lawnCare": {
         "title": "Rasenpflege & Wartung",
-        "description": "Regelmäßiges Mähen, Düngen, Belüften und Unkrautbekämpfung, um Ihren Rasen das ganze Jahr über gesund und lebendig zu halten."
+        "description": "Regelmäßiges Mähen, Düngen, Belüften und Unkrautbekämpfung, um Ihren Rasen das ganze Jahr über gesund und lebendig zu halten. Die Schnitthöhe passen wir der Jahreszeit an, bearbeiten problematische Stellen gezielt und beraten zur Bodenfruchtbarkeit, damit der Rasen dicht und belastbar bleibt. Ob einmalige Auffrischung oder dauerhafte Betreuung – mit zuverlässigen Terminen bleibt Ihr Rasen in Bestform."
       },
-      "gardenDesign": {
-        "title": "Gartengestaltung",
-        "description": "Maßgeschneiderte Gartenentwürfe, die Ihren Stil widerspiegeln und Ihren Bedürfnissen entsprechen, von modern-minimalistisch bis üppig-traditionell."
+      "treeTrimming": {
+        "title": "Baumschnitt / Fällung",
+        "description": "Fachgerechter Schnitt, Kronenpflege und sichere Entfernung abgestorbener oder gefährlicher Bäume zum Schutz Ihres Grundstücks und für eine gesunde Bepflanzung. Vor dem Schnitt bewerten wir Standfestigkeit und Wuchsform, räumen Schnittgut auf und entfernen auf Wunsch Wurzelstümpfe. Von der Formschnittpflege bis zur schonenden Abtragung sturmbeschädigter Äste arbeiten wir sorgfältig im Umfeld von Haus, Zaun und Leitungen."
       },
       "planting": {
         "title": "Pflanzservice",
-        "description": "Fachkundige Auswahl und Installation von Bäumen, Sträuchern, Blumen und anderen Pflanzen, die für Ihr lokales Klima und Ihre Bodenbedingungen geeignet sind."
+        "description": "Fachkundige Auswahl und Installation von Bäumen, Sträuchern, Blumen und anderen Pflanzen, die für Ihr lokales Klima und Ihre Bodenbedingungen geeignet sind. Wir bereiten Beete vor, verbessern den Boden bei Bedarf und setzen Pflanzen im richtigen Abstand, damit Ihre Rabatte langfristig harmonisch wirken. Nach dem Einpflanzen übernehmen wir auf Wunsch Mulchung und geben Tipps zur Bewässerung für ein sicheres Anwachsen."
       },
       "irrigation": {
         "title": "Bewässerungssysteme",
-        "description": "Planung und Installation effizienter Bewässerungssysteme, um sicherzustellen, dass Ihr Garten mit minimalem Wasserverbrauch optimal bewässert wird."
+        "description": "Planung und Installation effizienter Bewässerungssysteme, damit Ihr Garten mit möglichst wenig Wasser optimal versorgt wird. Wir planen Kreisläufe für Rasen, Beete und Kübel, setzen passende Regner oder Tropfbewässerung ein und programmieren Steuerungen für jahreszeitliche Anpassungen. Reparatur, Winterfeststellung und Frühjahrs-Inbetriebnahme halten Ihre Anlage zuverlässig über viele Jahre."
       },
       "landscaping": {
         "title": "Landschaftsbau",
-        "description": "Erstellung von Terrassen, Gehwegen, Stützmauern und anderen strukturellen Elementen, die Ihr Landschaftsdesign ergänzen."
+        "description": "Erstellung von Terrassen, Gehwegen, Stützmauern und anderen strukturellen Elementen, die Ihr Landschaftsdesign ergänzen. Wir kümmern uns um Höhenausgleich, tragfähige Unterbauung und Entwässerung, damit Wege und Flächen dauerhaft stabil bleiben. Von kleinen Wegabschnitten bis zu vollständigen Außenbereichen stimmen wir Materialien und Oberflächen auf Haus und Garten ab."
       },
       "seasonalCleaning": {
         "title": "Saisonale Reinigung",
-        "description": "Gründliche Frühjahrs- und Herbstreinigung, um Ihren Garten auf die Wachstumsperiode oder die Wintermonate vorzubereiten."
+        "description": "Gründliche Frühjahrs- und Herbstreinigung, um Ihren Garten auf die Wachstumsperiode oder die Wintermonate vorzubereiten. Wir entfernen Laub und Abfall, schneiden Stauden wo sinnvoll zurück und räumen Beetränder und Rasenkanten sauber auf. Optional gehören Heckenschnitt, Reinigung der Dachrinnen im Gartenbereich und Abtransport des Grüns – damit Ihre Außenanlage startklar für die nächste Jahreszeit ist."
+      }
+    }
+  },
+  "whyChoose": {
+    "title": "Warum uns wählen",
+    "description": "Mit über 15 Jahren Erfahrung in der Branche sind wir stolz darauf, außergewöhnlichen Service und Ergebnisse zu liefern.",
+    "items": {
+      "experiencedTeam": {
+        "title": "Erfahrenes Team",
+        "description": "Unser Team aus qualifizierten Fachleuten verfügt über jahrelange Erfahrung im Garten- und Landschaftsbau."
+      },
+      "qualityMaterials": {
+        "title": "Hochwertige Materialien",
+        "description": "Wir verwenden nur Pflanzen, Materialien und Geräte von höchster Qualität für alle unsere Projekte."
+      },
+      "customSolutions": {
+        "title": "Maßgeschneiderte Lösungen",
+        "description": "Wir entwickeln maßgeschneiderte Lösungen, die Ihren spezifischen Bedürfnissen und Vorlieben entsprechen."
+      },
+      "satisfaction": {
+        "title": "Zufriedenheitsgarantie",
+        "description": "Wir sind erst zufrieden, wenn Sie mit den Ergebnissen unserer Arbeit vollständig zufrieden sind."
       }
     }
   },

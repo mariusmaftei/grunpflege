@@ -10,17 +10,61 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://grunpflege.com/gallery</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://grunpflege.com/gallery"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grunpflege.com/en/gallery"/>
+    <loc>https://grunpflege.com/leistungen</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://grunpflege.com/leistungen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grunpflege.com/en/leistungen"/>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://grunpflege.com/leistungen/rasenpflege</loc>
     <lastmod>2024-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grunpflege.com/contact</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://grunpflege.com/contact"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grunpflege.com/en/contact"/>
+    <loc>https://grunpflege.com/leistungen/baumpflege</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grunpflege.com/leistungen/pflanzung</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grunpflege.com/leistungen/bewaesserung</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grunpflege.com/leistungen/landschaftsbau</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grunpflege.com/leistungen/saisonpflege</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grunpflege.com/galerie</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://grunpflege.com/galerie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grunpflege.com/en/galerie"/>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grunpflege.com/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://grunpflege.com/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://grunpflege.com/en/kontakt"/>
     <lastmod>2024-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

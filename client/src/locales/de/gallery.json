@@ -1,4 +1,8 @@
 {
+  "lightbox": {
+    "close": "Vorschau schließen",
+    "dialogLabel": "Vergrößertes Projektfoto"
+  },
   "title": "Unsere Projektgalerie",
   "description": "Durchstöbern Sie unsere Sammlung abgeschlossener Landschafts- und Gartenprojekte. Filtern Sie nach Kategorie, um die Inspiration zu finden, nach der Sie suchen.",
   "filter": {
@@ -8,8 +12,19 @@
       "gardens": "Gartengestaltung",
       "lawns": "Rasenpflege",
       "trees": "Baumpflanzung"
+    },
+    "apiCategories": {
+      "gardens": "Gartengestaltung",
+      "lawn-care": "Rasenpflege",
+      "tree-trimming-removal": "Baumschnitt & -entfernung",
+      "planting": "Bepflanzung",
+      "irrigation": "Bewässerung",
+      "landscaping": "Landschaftsgestaltung",
+      "seasonal-cleaning": "Saisonale Reinigung"
     }
   },
+  "loading": "Galerie wird geladen…",
+  "loadError": "Bilder konnten nicht geladen werden. Prüfen Sie, ob die API läuft und CORS diese Seite erlaubt.",
   "emptyState": "Keine Projekte in dieser Kategorie gefunden. Bitte versuchen Sie einen anderen Filter.",
   "gardenDescriptions": {
     "perennialPath": "Staudengartenweg-Design",

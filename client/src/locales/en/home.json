@@ -37,30 +37,53 @@
   "services": {
     "title": "Our Services",
     "description": "We offer a comprehensive range of garden and landscaping services to meet all your outdoor needs.",
+    "findOutMore": "Find out more",
     "items": {
       "lawnCare": {
         "title": "Lawn Care & Maintenance",
-        "description": "Regular mowing, fertilizing, aeration, and weed control to keep your lawn healthy and vibrant all year round."
+        "description": "Regular mowing, fertilizing, aeration, and weed control to keep your lawn healthy and vibrant all year round. We adjust cutting heights by season, spot-treat problem areas, and advise on soil health so your grass stays dense and resilient. Whether you need a one-time tidy-up or an ongoing maintenance plan, we keep your lawn looking its best with reliable, scheduled visits."
       },
-      "gardenDesign": {
-        "title": "Garden Design",
-        "description": "Custom garden designs that reflect your style and meet your needs, from modern minimalist to lush traditional."
+      "treeTrimming": {
+        "title": "Tree Trimming / Removal",
+        "description": "Professional pruning, crown reduction, and safe removal of dead or hazardous trees to protect your property and keep your landscape healthy. We assess structure and growth habits before cutting, clear debris from your site, and can grind stumps where required. From shaping ornamental trees to dismantling storm-damaged limbs, we work carefully around buildings, fences, and utilities."
       },
       "planting": {
         "title": "Planting Services",
-        "description": "Expert selection and installation of trees, shrubs, flowers, and other plants suitable for your local climate and soil conditions."
+        "description": "Expert selection and installation of trees, shrubs, flowers, and other plants suitable for your local climate and soil conditions. We prepare beds, improve soil where needed, and space plants for mature size so your borders stay balanced for years. After planting, we can set up mulching and watering guidance to help everything establish strongly."
       },
       "irrigation": {
         "title": "Irrigation Systems",
-        "description": "Planning and installation of efficient irrigation systems to ensure your garden is optimally watered with minimal water usage."
+        "description": "Planning and installation of efficient irrigation systems to ensure your garden is optimally watered with minimal water usage. We design layouts around lawn, beds, and containers, choose appropriate sprinklers or drip lines, and program controllers for seasonal adjustments. Repairs, winterization, and spring start-up help keep your system reliable season after season."
       },
       "landscaping": {
         "title": "Landscaping",
-        "description": "Creation of patios, walkways, retaining walls, and other structural elements that complement your landscape design."
+        "description": "Creation of patios, walkways, retaining walls, and other structural elements that complement your landscape design. We handle grading, base preparation, and drainage so surfaces stay level and long-lasting. From small path upgrades to full outdoor living areas, we coordinate materials and finishes to match your home and garden style."
       },
       "seasonalCleaning": {
         "title": "Seasonal Cleaning",
-        "description": "Thorough spring and fall cleanup to prepare your garden for the growing season or winter months."
+        "description": "Thorough spring and fall cleanup to prepare your garden for the growing season or winter months. We clear leaves and debris, cut back perennials where appropriate, and tidy beds and lawn edges for a crisp appearance. Optional services include hedge trimming, gutter clearing near garden areas, and hauling green waste so your property is ready for the next season."
+      }
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose Us",
+    "description": "With over 15 years of experience in the industry, we take pride in delivering exceptional service and results.",
+    "items": {
+      "experiencedTeam": {
+        "title": "Experienced Team",
+        "description": "Our team of qualified professionals has years of experience in garden and landscape construction."
+      },
+      "qualityMaterials": {
+        "title": "Quality Materials",
+        "description": "We use only the highest quality plants, materials, and equipment for all our projects."
+      },
+      "customSolutions": {
+        "title": "Custom Solutions",
+        "description": "We develop tailored solutions that meet your specific needs and preferences."
+      },
+      "satisfaction": {
+        "title": "Satisfaction Guarantee",
+        "description": "We're not satisfied until you're completely happy with the results of our work."
       }
     }
   },

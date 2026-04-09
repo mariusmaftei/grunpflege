@@ -1,25 +1,26 @@
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import styles from "./LanguageSwitcher.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { switchPathLocale } from "../../../constants/paths";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
-  // Set initial language from localStorage on component mount
-  useEffect(() => {
-    const storedLanguage = localStorage.getItem("language");
-    if (storedLanguage && storedLanguage !== i18n.language) {
-      i18n.changeLanguage(storedLanguage);
-    }
-  }, [i18n]);
-
   const changeLanguage = (lng) => {
+    const nextPath = switchPathLocale(pathname, lng);
     i18n.changeLanguage(lng);
-    // Store the selected language in localStorage
-    localStorage.setItem("language", lng);
+    try {
+      localStorage.setItem("language", lng);
+    } catch {
+      /* ignore */
+    }
+    navigate(nextPath, { replace: true });
     setIsOpen(false);
   };
 

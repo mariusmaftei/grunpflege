@@ -21,10 +21,20 @@ import {
 import { useTranslation } from "react-i18next";
 
 import styles from "./contact.module.css";
+import { PATH_KONTAKT } from "../../constants/paths";
+import { useLocalizedPath } from "../../hooks/useLocalizedPath";
+
+const WHY_CHOOSE_KEYS = [
+  "experiencedTeam",
+  "qualityMaterials",
+  "customSolutions",
+  "satisfaction",
+];
 
 export default function ContactPage() {
   const { t } = useTranslation("contact");
   const { t: tCommon } = useTranslation("common");
+  const kontaktPath = useLocalizedPath(PATH_KONTAKT);
 
   // This ensures that the translations are loaded
   useEffect(() => {
@@ -278,130 +288,32 @@ export default function ContactPage() {
           </div>
         </section>
 
-        {/* Services Section */}
-        <section className={styles.servicesSection}>
-          <div className={styles.servicesContainer}>
-            <h2 className={styles.servicesTitle}>{t("services.title")}</h2>
-            <p className={styles.servicesDescription}>
-              {t("services.description")}
-            </p>
-
-            <div className={styles.servicesGrid}>
-              <div className={styles.serviceItem}>
-                <div className={styles.serviceItemIcon}>
-                  <FontAwesomeIcon icon={faLeaf} />
-                </div>
-                <div className={styles.serviceItemContent}>
-                  <h3 className={styles.serviceItemTitle}>
-                    {t("services.items.lawnCare.title")}
-                  </h3>
-                  <p className={styles.serviceItemDescription}>
-                    {t("services.items.lawnCare.description")}
-                  </p>
-                </div>
-              </div>
-
-              <div className={styles.serviceItem}>
-                <div className={styles.serviceItemIcon}>
-                  <FontAwesomeIcon icon={faLeaf} />
-                </div>
-                <div className={styles.serviceItemContent}>
-                  <h3 className={styles.serviceItemTitle}>
-                    {t("services.items.gardenDesign.title")}
-                  </h3>
-                  <p className={styles.serviceItemDescription}>
-                    {t("services.items.gardenDesign.description")}
-                  </p>
-                </div>
-              </div>
-
-              <div className={styles.serviceItem}>
-                <div className={styles.serviceItemIcon}>
-                  <FontAwesomeIcon icon={faLeaf} />
-                </div>
-                <div className={styles.serviceItemContent}>
-                  <h3 className={styles.serviceItemTitle}>
-                    {t("services.items.planting.title")}
-                  </h3>
-                  <p className={styles.serviceItemDescription}>
-                    {t("services.items.planting.description")}
-                  </p>
-                </div>
-              </div>
-
-              <div className={styles.serviceItem}>
-                <div className={styles.serviceItemIcon}>
-                  <FontAwesomeIcon icon={faLeaf} />
-                </div>
-                <div className={styles.serviceItemContent}>
-                  <h3 className={styles.serviceItemTitle}>
-                    {t("services.items.irrigation.title")}
-                  </h3>
-                  <p className={styles.serviceItemDescription}>
-                    {t("services.items.irrigation.description")}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Why Choose Us Section */}
-        <section className={styles.whyChooseSection}>
+        <section
+          className={styles.whyChooseSection}
+          aria-labelledby="contact-why-choose-heading"
+        >
           <div className={styles.whyChooseContainer}>
-            <h2 className={styles.whyChooseTitle}>{t("whyChoose.title")}</h2>
+            <h2 id="contact-why-choose-heading" className={styles.whyChooseTitle}>
+              {t("whyChoose.title")}
+            </h2>
             <p className={styles.whyChooseDescription}>
               {t("whyChoose.description")}
             </p>
 
             <div className={styles.whyChooseGrid}>
-              <div className={styles.whyChooseItem}>
-                <div className={styles.whyChooseIcon}>
-                  <FontAwesomeIcon icon={faCheck} />
+              {WHY_CHOOSE_KEYS.map((key) => (
+                <div key={key} className={styles.whyChooseItem}>
+                  <div className={styles.whyChooseIcon}>
+                    <FontAwesomeIcon icon={faCheck} aria-hidden />
+                  </div>
+                  <h3 className={styles.whyChooseItemTitle}>
+                    {t(`whyChoose.items.${key}.title`)}
+                  </h3>
+                  <p className={styles.whyChooseItemDescription}>
+                    {t(`whyChoose.items.${key}.description`)}
+                  </p>
                 </div>
-                <h3 className={styles.whyChooseItemTitle}>
-                  {t("whyChoose.items.experiencedTeam.title")}
-                </h3>
-                <p className={styles.whyChooseItemDescription}>
-                  {t("whyChoose.items.experiencedTeam.description")}
-                </p>
-              </div>
-
-              <div className={styles.whyChooseItem}>
-                <div className={styles.whyChooseIcon}>
-                  <FontAwesomeIcon icon={faCheck} />
-                </div>
-                <h3 className={styles.whyChooseItemTitle}>
-                  {t("whyChoose.items.qualityMaterials.title")}
-                </h3>
-                <p className={styles.whyChooseItemDescription}>
-                  {t("whyChoose.items.qualityMaterials.description")}
-                </p>
-              </div>
-
-              <div className={styles.whyChooseItem}>
-                <div className={styles.whyChooseIcon}>
-                  <FontAwesomeIcon icon={faCheck} />
-                </div>
-                <h3 className={styles.whyChooseItemTitle}>
-                  {t("whyChoose.items.customSolutions.title")}
-                </h3>
-                <p className={styles.whyChooseItemDescription}>
-                  {t("whyChoose.items.customSolutions.description")}
-                </p>
-              </div>
-
-              <div className={styles.whyChooseItem}>
-                <div className={styles.whyChooseIcon}>
-                  <FontAwesomeIcon icon={faCheck} />
-                </div>
-                <h3 className={styles.whyChooseItemTitle}>
-                  {t("whyChoose.items.satisfaction.title")}
-                </h3>
-                <p className={styles.whyChooseItemDescription}>
-                  {t("whyChoose.items.satisfaction.description")}
-                </p>
-              </div>
+              ))}
             </div>
           </div>
         </section>
@@ -432,7 +344,7 @@ export default function ContactPage() {
             <p className={styles.scheduleDescription}>
               {t("schedule.description")}
             </p>
-            <Link href="/contacts" className={styles.scheduleButton}>
+            <Link to={kontaktPath} className={styles.scheduleButton}>
               <FontAwesomeIcon
                 icon={faCalendarAlt}
                 className={styles.scheduleButtonIcon}

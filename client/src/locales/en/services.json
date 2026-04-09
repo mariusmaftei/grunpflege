@@ -1,0 +1,242 @@
+{
+  "hero": {
+    "title": "Our Services",
+    "subtitle": "From lawn care and planting to irrigation, landscaping, and seasonal cleanups — everything your outdoor space needs, done with care and experience."
+  },
+  "backToAll": "← All services",
+  "contactCta": "Request a consultation",
+  "detail": {
+    "heroEyebrow": "Service overview",
+    "summaryTitle": "Overview",
+    "featuresTitle": "What we take care of",
+    "featuresIntro": "Below is a practical breakdown of what this service typically includes. Every property is different — tell us your goals and we tailor the plan."
+  },
+  "process": {
+    "title": "How we work with you",
+    "subtitle": "Simple steps from your first message to finished work — we handle planning, materials, and execution so you do not have to juggle contractors."
+  },
+  "processSteps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, email, or use our contact form. Briefly describe your garden or lawn and what you would like to improve."
+    },
+    {
+      "title": "Visit & advice",
+      "text": "We arrange a site visit when needed, assess conditions, and recommend options that fit your budget and timeline."
+    },
+    {
+      "title": "Clear offer",
+      "text": "You receive a transparent quote and schedule. No surprises — we agree on scope before any work starts."
+    },
+    {
+      "title": "We deliver",
+      "text": "Our team carries out the work professionally, keeps the site tidy, and follows up so you are satisfied with the result."
+    }
+  ],
+  "cta": {
+    "title": "Ready to get started?",
+    "body": "Tell us about your outdoor space — we will advise honestly, organise what is needed, and take care of the work from start to finish.",
+    "button": "Contact us",
+    "phoneLabel": "Or call us"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Quick answers about booking, pricing, and how we work. If something is not covered, contact us and we will help."
+  },
+  "faqItems": [
+    {
+      "question": "How do I get a quote?",
+      "answer": "Use the contact form, call, or email with a short description of the job and your address. For most work we arrange a quick visit or photos, then send a written quote with scope and timing."
+    },
+    {
+      "question": "Do you work on one-off jobs and ongoing contracts?",
+      "answer": "Yes. We do single visits — for example a cleanup or a tree job — and regular maintenance plans for lawns and gardens. Tell us what rhythm you prefer."
+    },
+    {
+      "question": "How far in advance should I book?",
+      "answer": "It depends on the season and workload. For routine maintenance we often find a slot within one to two weeks; larger landscaping projects may need more planning. Ask early for spring and autumn peaks."
+    },
+    {
+      "question": "What about bad weather?",
+      "answer": "We reschedule outdoor work when conditions are unsafe or would damage your lawn and soil — for example heavy rain during mowing. We will agree a new date as soon as possible."
+    },
+    {
+      "question": "Are you insured?",
+      "answer": "We work professionally and carry appropriate cover for our trade. If you need confirmation for your records, ask when you book."
+    },
+    {
+      "question": "Can you combine several services in one visit?",
+      "answer": "Often yes — for example lawn care plus hedge trimming or seasonal cleanup. We bundle where it saves time and keeps costs fair; your quote will list everything clearly."
+    }
+  ],
+  "details": {
+    "lawnCare": {
+      "tagline": "Reliable lawn care tailored to your grass, soil, and season.",
+      "introTitle1": "Regular care & mowing",
+      "introTitle2": "Renovation & new turf",
+      "introBody2": "When wear, shade, or compaction leave thin or patchy grass, we assess the soil and suggest overseeding, topdressing, or full renewal. For new lawns we prepare the ground, lay rolls or seed at the right time, and give you a short aftercare plan so the turf establishes well.",
+      "introBullets1": [
+        "Mowing on a *schedule* with height adjusted for season and grass type",
+        "*Neat edges* along paths, beds, and trees for a finished look",
+        "Fertilising and *soil-focused* treatments where they help most",
+        "Aeration, scarifying, and *overseeding* to thicken thin areas"
+      ],
+      "introBullets2": [
+        "*Ground preparation* and levelling before rolls or seed",
+        "Choice of *turf or seed* to suit use, sun, and maintenance level",
+        "Blend of *species* and timing matched to your climate window",
+        "Clear *watering and first-cut* guidance after installation"
+      ],
+      "introAlt1": "Freshly mowed lawn with trees in the garden.",
+      "introAlt2": "Laying new turf rolls for lawn renewal.",
+      "features": [
+        "Regular mowing with height adjusted for season and grass type",
+        "Edging along paths, beds, and borders for a neat finish",
+        "Fertilising and soil-focused treatments where appropriate",
+        "Aeration and overseeding to improve density and drainage",
+        "Targeted weed control and moss management",
+        "Advice on watering and seasonal adjustments"
+      ]
+    },
+    "treeTrimming": {
+      "tagline": "Safe pruning and tree work that protects your property and trees.",
+      "introTitle1": "Tree Trimming",
+      "introTitle2": "Tree Removal",
+      "introBody2": "When a tree must come down, we plan dismantling carefully around buildings, fences, and utilities. We use ropes, platforms, or specialist equipment as the job requires, grind stumps where agreed, and leave the site clear of debris.",
+      "introBullets1": [
+        "*Crown thinning*, lifting, and reduction for light, air, and safe clearance",
+        "Removal of *dead, damaged, or hazardous* branches before they fail",
+        "*Clean cuts* and species-appropriate timing to support healthy regrowth",
+        "Respect for *lawns, beds, and wiring* — debris cleared from your property"
+      ],
+      "introBullets2": [
+        "*Sectional dismantling* planned around roofs, paths, and neighbour boundaries",
+        "Rigging, *work platforms*, or MEWP access when the site demands it",
+        "*Stump grinding* and root-zone options discussed up front in the quote",
+        "Timber and chip *hauled or left* for your use — site left tidy"
+      ],
+      "introAlt1": "Professional tree pruning with clean cuts and tidy branches.",
+      "introAlt2": "Tree removal using specialist equipment on site.",
+      "features": [
+        "Crown thinning, lifting, and reduction for health and clearance",
+        "Removal of dead, damaged, or hazardous branches",
+        "Careful dismantling and removal of trees in tight spaces",
+        "Stump grinding and site clearance after removals",
+        "Respect for nearby buildings, wiring, and neighbouring plants",
+        "Clear communication before cuts and full debris removal"
+      ]
+    },
+    "planting": {
+      "tagline": "Thoughtful planting that suits your soil, light, and long-term design.",
+      "introTitle1": "Trees & structural planting",
+      "introTitle2": "Beds, perennials & seasonal colour",
+      "introBody2": "Flower and shrub beds bring rhythm through the year — we group plants by water and light needs, improve the soil where it counts, and layer heights for interest from spring to frost. Seasonal bedding and bulbs can refresh key views without a full redesign.",
+      "introBullets1": [
+        "Species and *sizes* chosen for mature spread, not just day-one impact",
+        "Pits and *soil amendments* matched to root ball and local conditions",
+        "Safe working near *paths, utilities, and boundaries* with neighbours in mind",
+        "Staking, *mulch*, and watering notes so new trees establish steadily"
+      ],
+      "introBullets2": [
+        "*Bed shapes* and edging that sit cleanly beside lawn and hard surfaces",
+        "Perennials, grasses, and *shrubs* combined for lower long-term upkeep",
+        "Mulching to *hold moisture* and suppress weeds in young plantings",
+        "Seasonal *colour plans* when you want high-impact beds refreshed"
+      ],
+      "introAlt1": "Newly planted trees beside a gravel path in a residential area.",
+      "introAlt2": "Flowering plants and colour in a garden bed.",
+      "features": [
+        "Plant selection for climate, exposure, and maintenance level",
+        "Bed preparation, soil improvement, and correct spacing",
+        "Trees, shrubs, perennials, and seasonal bedding installed properly",
+        "Mulching and initial watering guidance for establishment",
+        "Coordination with existing lawns, paths, and irrigation",
+        "Follow-up tips so new plants establish strongly"
+      ]
+    },
+    "irrigation": {
+      "tagline": "Efficient watering systems designed around your garden layout.",
+      "introTitle1": "Beds, shrubs & targeted watering",
+      "introTitle2": "Lawn zones & even coverage",
+      "introBody2": "Grass needs reliable overlap and the right precipitation rate — we split lawn areas into zones that match sun, slope, and soil, choose heads for uniform coverage, and tune run times so you water deeply without constant shallow cycles.",
+      "introBullets1": [
+        "*Drip and micro-spray* options where beds, hedges, and pots need steady moisture",
+        "Pipe runs and *valves* grouped so you are not watering pavement by mistake",
+        "Controllers and *rain or soil sensors* when you want smarter seasonal cutbacks",
+        "Repairs to *leaks, clogged emitters*, and damaged lines before water is wasted"
+      ],
+      "introBullets2": [
+        "*Sprinkler layout* planned for head-to-head coverage on your lawn shape",
+        "Pressure and *flow checks* so every zone performs within safe limits",
+        "*Seasonal programmes* — shorter in cool weeks, adjusted for heatwaves",
+        "Winterisation or *spring start-up* where frost risk affects the system"
+      ],
+      "introAlt1": "Gardener adjusting irrigation at plants and garden beds.",
+      "introAlt2": "Watering the lawn with a garden irrigation system.",
+      "features": [
+        "Design of sprinkler zones, drip lines, or mixed systems",
+        "Installation with attention to pressure, coverage, and water saving",
+        "Controller setup and seasonal programme adjustments",
+        "Repairs to leaks, valves, heads, and pipework",
+        "Winterisation and spring start-up where applicable",
+        "Guidance on run times for lawns, beds, and containers"
+      ]
+    },
+    "landscaping": {
+      "tagline": "Hard landscaping built to last and match your home and garden.",
+      "introTitle1": "Front garden & focal structure",
+      "introTitle2": "Paths, surfaces & garden flow",
+      "introBody2": "Gravel paths, stepping routes, and small paved areas tie the garden together when levels and drainage are planned first. We align edges with lawn and beds, choose materials that suit your home, and leave surfaces stable under regular foot traffic and weather.",
+      "introBullets1": [
+        "Levels and *lines* that frame the house and sightlines from the street",
+        "Trees and *specimen planting* coordinated with hard edges and root space",
+        "Sub-bases and *edging* that stay crisp beside lawn and mulch",
+        "Materials chosen for *grip, drainage*, and long-term upkeep you are happy with"
+      ],
+      "introBullets2": [
+        "*Gravel and path* builds with separation fabric and correct depth",
+        "Terraces, *steps*, and low walls where the site needs definition",
+        "Falls and *drainage* routed away from walls and sitting areas",
+        "Handover with *care notes* for weeds, topping-up, and jet washing"
+      ],
+      "introAlt1": "Decorative tree and front garden in a residential neighbourhood.",
+      "introAlt2": "Green garden with a gravel path in a neighbourhood setting.",
+      "features": [
+        "Patios, paths, and steps with solid base preparation",
+        "Retaining walls and terracing for level changes",
+        "Gravel, paving, and natural stone layouts",
+        "Drainage and grading to avoid standing water",
+        "Integration with planting and lawn areas",
+        "Clean handover with care notes for new surfaces"
+      ]
+    },
+    "seasonalCleaning": {
+      "tagline": "Spring and autumn cleanups that reset your garden for the season ahead.",
+      "introTitle1": "Spring tidy & winter debris",
+      "introTitle2": "Leaves, lawns & hidden corners",
+      "introBody2": "Once leaves pile up on grass and in beds, light and air suffer — we rake and lift debris, clear paths and gravel, and get material ready for composting or green-waste collection. The goal is a clean slate before frost or before growth kicks in again.",
+      "introBullets1": [
+        "*Windfall branches* and twigs lifted from lawns and paths after winter",
+        "Borders and beds *opened up* so new growth is not smothered",
+        "Surfaces *blown or swept* where that finishes the job without damage",
+        "Green waste *bagged, piled*, or removed according to what you prefer"
+      ],
+      "introBullets2": [
+        "Thick *leaf layers* cleared from turf before they mat and invite moss",
+        "Corners, *fences, and shrubs* where leaves collect and hold damp",
+        "Light *edge refresh* on lawns alongside the seasonal clear-up",
+        "Optional *extras* such as light hedge trims tied into the same visit"
+      ],
+      "introAlt1": "Spring garden cleanup with branches and garden debris gathered.",
+      "introAlt2": "Raking dry leaves from the lawn and garden.",
+      "features": [
+        "Leaf and debris clearance from lawns, beds, and corners",
+        "Cutting back perennials and tidying borders where appropriate",
+        "Lawn edges refreshed and surfaces blown or raked clean",
+        "Light hedge trimming and shaping as agreed",
+        "Green waste removal or consolidation for collection",
+        "Optional add-ons such as gutter areas near the garden"
+      ]
+    }
+  }
+}

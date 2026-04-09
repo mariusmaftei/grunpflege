@@ -1,6 +1,7 @@
 {
   "navigation": {
     "home": "Home",
+    "services": "Services",
     "gallery": "Gallery",
     "contact": "Contact"
   },
@@ -13,7 +14,7 @@
     "address": "Address",
     "services": "Services",
     "lawnCare": "Lawn Care",
-    "gardenDesign": "Garden Design",
+    "treeTrimming": "Tree Trimming / Removal",
     "planting": "Planting & Maintenance",
     "irrigation": "Irrigation Systems",
     "landscaping": "Landscaping",

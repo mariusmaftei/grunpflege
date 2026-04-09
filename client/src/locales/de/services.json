@@ -1,0 +1,242 @@
+{
+  "hero": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Von Rasenpflege und Pflanzungen über Bewässerung und Landschaftsbau bis zur saisonalen Gartenpflege — alles, was Ihr Außenbereich braucht, mit Erfahrung und Sorgfalt."
+  },
+  "backToAll": "← Alle Leistungen",
+  "contactCta": "Beratung anfragen",
+  "detail": {
+    "heroEyebrow": "Leistungsüberblick",
+    "summaryTitle": "Überblick",
+    "featuresTitle": "Das übernehmen wir für Sie",
+    "featuresIntro": "Hier sehen Sie typische Leistungsbausteine dieses Angebots. Jedes Grundstück ist anders — sprechen Sie uns an, wir passen Plan und Umfang an Ihre Ziele an."
+  },
+  "process": {
+    "title": "So arbeiten wir mit Ihnen",
+    "subtitle": "Klare Schritte von der ersten Nachricht bis zur fertigen Arbeit — wir kümmern uns um Planung, Material und Ausführung, damit Sie nicht mehrere Gewerke koordinieren müssen."
+  },
+  "processSteps": [
+    {
+      "title": "Kontakt aufnehmen",
+      "text": "Rufen Sie an, schreiben Sie eine E-Mail oder nutzen Sie unser Kontaktformular. Beschreiben Sie kurz Garten oder Rasen und was Sie verbessern möchten."
+    },
+    {
+      "title": "Besuch & Beratung",
+      "text": "Wir vereinbaren bei Bedarf eine Besichtigung vor Ort, bewerten die Gegebenheiten und schlagen Optionen vor, die zu Budget und Zeitplan passen."
+    },
+    {
+      "title": "Transparentes Angebot",
+      "text": "Sie erhalten ein verständliches Angebot und einen Zeitrahmen. Ohne Überraschungen — der Leistungsumfang ist vor Beginn der Arbeiten geklärt."
+    },
+    {
+      "title": "Wir liefern",
+      "text": "Unser Team führt die Arbeiten fachgerecht aus, hält die Baustelle ordentlich und meldet sich, damit Sie mit dem Ergebnis zufrieden sind."
+    }
+  ],
+  "cta": {
+    "title": "Möchten Sie starten?",
+    "body": "Erzählen Sie uns von Ihrem Außenbereich — wir beraten ehrlich, organisieren das Nötige und übernehmen die Arbeit von Anfang bis Ende.",
+    "button": "Kontakt aufnehmen",
+    "phoneLabel": "Oder telefonisch"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Kurze Antworten zu Buchung, Preisen und Ablauf. Fehlt etwas, melden Sie sich — wir helfen gern."
+  },
+  "faqItems": [
+    {
+      "question": "Wie erhalte ich ein Angebot?",
+      "answer": "Nutzen Sie das Kontaktformular, rufen Sie an oder schreiben Sie eine E-Mail mit kurzer Beschreibung der Arbeit und Ihrer Adresse. Meist vereinbaren wir eine Besichtigung oder arbeiten mit Fotos und senden Ihnen ein schriftliches Angebot mit Leistungsumfang und Zeitraum."
+    },
+    {
+      "question": "Machen Sie Einzelaufträge und Dauerpflege?",
+      "answer": "Ja. Wir übernehmen einmalige Einsätze — etwa eine Baumpflege oder eine große Reinigung — und regelmäßige Pflegepläne für Rasen und Garten. Sagen Sie uns, welchen Rhythmus Sie sich vorstellen."
+    },
+    {
+      "question": "Wie früh sollte ich buchen?",
+      "answer": "Das hängt von Jahreszeit und Auslastung ab. Für laufende Pflege finden wir oft einen Termin innerhalb von ein bis zwei Wochen; größere Projekte brauchen mehr Planung. Für Frühjahr und Herbst lohnt sich eine frühe Anfrage."
+    },
+    {
+      "question": "Was passiert bei schlechtem Wetter?",
+      "answer": "Außenarbeiten verschieben wir, wenn es unsicher ist oder Rasen und Boden leiden würden — etwa bei starkem Regen während des Mähens. Wir vereinbaren schnell einen neuen Termin."
+    },
+    {
+      "question": "Sind Sie versichert?",
+      "answer": "Wir arbeiten gewerbsmäßig und verfügen über die übliche Absicherung für unser Handwerk. Wenn Sie eine Bestätigung für Ihre Unterlagen brauchen, sagen Sie Bescheid bei der Buchung."
+    },
+    {
+      "question": "Können mehrere Leistungen in einem Termin kombiniert werden?",
+      "answer": "Oft ja — zum Beispiel Rasenpflege plus Heckenschnitt oder saisonale Reinigung. Wo es Zeit spart und fair bleibt, bündeln wir das; im Angebot ist alles klar aufgelistet."
+    }
+  ],
+  "details": {
+    "lawnCare": {
+      "tagline": "Zuverlässige Rasenpflege abgestimmt auf Rasen, Boden und Jahreszeit.",
+      "introTitle1": "Laufende Pflege & Mähen",
+      "introTitle2": "Rasenerneuerung & Neuanlage",
+      "introBody2": "Wenn Abnutzung, Schatten oder Verdichtung zu lückigem Rasen führen, bewerten wir den Boden und schlagen Nachsaat, Aufschüttung oder komplette Erneuerung vor. Für neue Rasen bereiten wir den Untergrund vor, verlegen Rollrasen oder säen zum richtigen Zeitpunkt und geben Ihnen eine kurze Pflegeanleitung für gutes Anwachsen.",
+      "introBullets1": [
+        "Mähen im *festen Rhythmus* mit der passenden Schnitthöhe je nach Jahreszeit und Rasentyp",
+        "*Saubere Kanten* entlang von Wegen, Beeten und Bäumen",
+        "Düngung und *bodenbezogene* Maßnahmen, wo sie den größten Nutzen bringen",
+        "Aerifizieren, Vertikutieren und *Nachsaat* zur Verdichtung lichter Flächen"
+      ],
+      "introBullets2": [
+        "*Untergrundvorbereitung* und Planieren vor Rollrasen oder Aussaat",
+        "Wahl *Rollrasen oder Saatgut* nach Nutzung, Sonne und Pflegeaufwand",
+        "Mischung und *Termin* passend zur Vegetationsperiode bei Ihnen",
+        "Klare Hinweise zu *Wässern und erstem Schnitt* nach der Verlegung"
+      ],
+      "introAlt1": "Frisch gemähter Rasen mit Bäumen im Garten.",
+      "introAlt2": "Verlegen neuer Rollrasen zur Rasenerneuerung.",
+      "features": [
+        "Regelmäßiger Schnitt mit der passenden Schnitthöhe je nach Jahreszeit und Rasentyp",
+        "Kantenpflege entlang von Wegen, Beeten und Zonen für einen sauberen Abschluss",
+        "Düngung und bodenbezogene Maßnahmen wo sinnvoll",
+        "Vertikutieren und Nachsaat zur Verbesserung von Dichte und Drainage",
+        "Gezielte Unkraut- und Moosregulierung",
+        "Tipps zu Bewässerung und saisonalen Anpassungen"
+      ]
+    },
+    "treeTrimming": {
+      "tagline": "Sachkundiger Baumschnitt und Baumarbeiten zum Schutz von Eigentum und Baum.",
+      "introTitle1": "Baumschnitt",
+      "introTitle2": "Baumfällung / Entfernung",
+      "introBody2": "Wenn ein Baum entfernt werden muss, planen wir das Abtragen sorgfältig im Umfeld von Gebäuden, Zäunen und Leitungen. Seile, Arbeitsbühnen oder Spezialgeräte setzen wir je nach Aufgabe ein, fräsen Stubben nach Absprache und räumen die Fläche von Schnittgut.",
+      "introBullets1": [
+        "*Kronenauslichtung*, Heben und Verkürzung für Licht, Luftzug und sicheren Abstand",
+        "Entfernung *abgestorbener, beschädigter oder gefährlicher* Äste, bevor sie brechen",
+        "*Saubere Schnittführung* und artgerechte Termine für gesunden Nachwuchs",
+        "Rücksicht auf *Rasen, Beete und Leitungen* — Schnittgut wird entfernt"
+      ],
+      "introBullets2": [
+        "*Teilweise Abtragung* geplant rund um Dächer, Wege und Nachbargrundstücke",
+        "Seiltechnik, *Arbeitsbühnen* oder Hubsteiger, wenn die Lage es erfordert",
+        "*Stubbenfräsen* und Wurzelraum-Optionen klar im Angebot besprochen",
+        "Holz und Hackschnitzel *mitnehmen oder liegen lassen* — Fläche ordentlich hinterlassen"
+      ],
+      "introAlt1": "Professioneller Baumschnitt mit sauberen Schnittflächen und ordentlichem Astwerk.",
+      "introAlt2": "Baumfällung mit Spezialausrüstung vor Ort.",
+      "features": [
+        "Kronenpflege: Auslichten, Heben und Verkürzen für Vitalität und Abstand",
+        "Entfernung abgestorbener, beschädigter oder gefährlicher Äste",
+        "Sicheres Abtragen und Entfernen von Bäumen auch in beengten Lagen",
+        "Stubbenfräsen und Flächenräumung nach Fällungen",
+        "Rücksicht auf Gebäude, Leitungen und Nachbarbegrünung",
+        "Klare Absprachen vor dem Schnitt und vollständige Entsorgung des Schnittguts"
+      ]
+    },
+    "planting": {
+      "tagline": "Durchdachte Bepflanzung passend zu Boden, Licht und langfristiger Gestaltung.",
+      "introTitle1": "Bäume & strukturgebende Bepflanzung",
+      "introTitle2": "Beete, Stauden & saisonale Farbe",
+      "introBody2": "Blumen- und Strauchbeete bringen Rhythmus übers Jahr — wir gruppieren Pflanzen nach Wasser- und Lichtbedarf, verbessern den Boden gezielt und staffeln Höhen für Spannung von Frühjahr bis Frost. Saisonbepflanzung und Zwiebeln können Schwerpunkte auffrischen, ohne den ganzen Garten neu zu planen.",
+      "introBullets1": [
+        "Arten und *Größen* nach endlicher Breite und Höhe, nicht nur für den Pflanztag",
+        "Pflanzgruben und *Bodenverbesserung* passend zur Wurzelballengröße und zum Standort",
+        "Sicheres Arbeiten an *Wegen, Leitungen und Grundstücksgrenzen* mit Rücksicht auf Nachbarn",
+        "Verankerung, *Mulch* und Gießhinweise für ein stetiges Anwachsen"
+      ],
+      "introBullets2": [
+        "*Beetformen* und Kanten, die sauber an Rasen und Hartflächen anschließen",
+        "Stauden, Gräser und *Sträucher* für ansprechende Pflegearmut im Alltag",
+        "Mulchen zur *Feuchtespeicherung* und zur Unterdrückung von Unkraut bei Jungpflanzen",
+        "*Farbkonzepte* zur Saison, wenn Beete bewusst wechselnd inszeniert werden sollen"
+      ],
+      "introAlt1": "Neu gepflanzte Bäume entlang eines Kieswegs in einer Wohngegend.",
+      "introAlt2": "Blühende Pflanzen und Farbe in einem Gartenbeet.",
+      "features": [
+        "Pflanzenwahl nach Klima, Standort und Pflegeaufwand",
+        "Beetvorbereitung, Bodenverbesserung und korrekte Pflanzabstände",
+        "Fachgerechte Pflanzung von Bäumen, Sträuchern, Stauden und Saisonbepflanzung",
+        "Mulchen und Anleitung zur Etablierung und Bewässerung",
+        "Abstimmung mit Rasen, Wegen und Bewässerung",
+        "Tipps zur Einarbeitung neuer Pflanzen"
+      ]
+    },
+    "irrigation": {
+      "tagline": "Effiziente Bewässerung, geplant nach Ihrer Gartenstruktur.",
+      "introTitle1": "Beete, Sträucher & gezielte Bewässerung",
+      "introTitle2": "Rasenflächen & gleichmäßige Beregnung",
+      "introBody2": "Rasen braucht zuverlässige Überlappung und die passende Niederschlagsmenge — wir teilen Rasenflächen in Kreise ein, die Sonne, Hang und Boden berücksichtigen, wählen Regner für gleichmäßige Deckung und stimmen Laufzeiten so ab, dass tief gewässert wird statt ständig flach.",
+      "introBullets1": [
+        "*Tropf- und Mikroberegnung*, wo Beete, Hecken und Kübel gleichmäßig Feuchte brauchen",
+        "Leitungsführung und *Ventilkreise*, damit keine Wege mitbewässert werden",
+        "Steuerungen mit *Regen- oder Bodensensoren*, wenn saisonal gespart werden soll",
+        "Reparatur von *Lecks, verstopften Tropfern* und beschädigten Leitungen"
+      ],
+      "introBullets2": [
+        "*Regnerplanung* mit Kopf-zu-Kopf-Deckung für Ihre Rasenform",
+        "Druck- und *Durchflussprüfung*, damit jeder Kreis im sicheren Rahmen arbeitet",
+        "*Saisonprogramme* — kürzer in kühlen Wochen, angepasst bei Hitzephasen",
+        "*Winterfeststellung* oder Frühjahrs-Inbetriebnahme bei Frostgefahr für die Anlage"
+      ],
+      "introAlt1": "Gärtner stellt Bewässerung an Pflanzen und Beeten ein.",
+      "introAlt2": "Rasen mit Gartenbewässerung wässern.",
+      "features": [
+        "Planung von Beregnungskreisen, Tropfbewässerung oder Mischsystemen",
+        "Installation mit Blick auf Druck, Flächendeckung und Wassersparen",
+        "Programmierung der Steuerung und saisonale Anpassungen",
+        "Reparatur von Lecks, Ventilen, Regnern und Leitungen",
+        "Winterfeststellung und Frühjahrs-Inbetriebnahme wo üblich",
+        "Empfehlungen zu Laufzeiten für Rasen, Beete und Kübel"
+      ]
+    },
+    "landscaping": {
+      "tagline": "Hardscaping mit tragfähiger Unterkonstruktion, passend zu Haus und Garten.",
+      "introTitle1": "Vorgarten & strukturgebende Elemente",
+      "introTitle2": "Wege, Beläge & Gartenführung",
+      "introBody2": "Kieswege, Trittplatten und kleine befestigte Flächen fügen den Garten zusammen, wenn Höhen und Entwässerung zuerst stimmen. Wir führen Kanten sauber an Rasen und Beeten aus, wählen Material passend zum Haus und liefern tragfähige Oberflächen für Alltagsnutzung und Witterung.",
+      "introBullets1": [
+        "Höhenlinien und *Führungen*, die Haus und Blick von der Straße einrahmen",
+        "Bäume und *Solitärpflanzungen* mit genug Wurzelraum neben Hartflächen",
+        "Unterbau und *Kanten*, die neben Rasen und Mulch dauerhaft sauber bleiben",
+        "Materialwahl mit Blick auf *Griffigkeit, Wasserablauf* und Pflegeaufwand"
+      ],
+      "introBullets2": [
+        "*Kies- und Wegebau* mit Trennvlies und fachgerechter Schichtstärke",
+        "Terrassen, *Stufen* und niedrige Mauern, wo das Gelände Struktur braucht",
+        "Gefälle und *Entwässerung* weg von Hauswänden und Sitzbereichen",
+        "Übergabe mit *Pflegehinweisen* zu Unkraut, Nachfüllen und Reinigung"
+      ],
+      "introAlt1": "Dekorativer Baum und Vorgarten in einer Wohngegend.",
+      "introAlt2": "Grüner Garten mit Kiesweg in einer Nachbarschaft.",
+      "features": [
+        "Terrassen, Wege und Stufen mit solider Unterbauvorbereitung",
+        "Stützmauern und Terrassierung bei Höhenunterschieden",
+        "Gestaltung mit Kies, Platten und Naturstein",
+        "Entwässerung und Geländemodellierung gegen Staunässe",
+        "Einbindung von Bepflanzung und Rasenflächen",
+        "Übergabe mit Pflegehinweisen für neue Flächen"
+      ]
+    },
+    "seasonalCleaning": {
+      "tagline": "Frühjahrs- und Herbstpflege, die Ihren Garten für die neue Saison vorbereitet.",
+      "introTitle1": "Frühjahrsputz & Winterreste",
+      "introTitle2": "Laub, Rasen & versteckte Ecken",
+      "introBody2": "Liegt Laub dicht auf Rasen und in Beeten, leiden Licht und Luftzug — wir harken, heben Material ab, räumen Wege und Kiesflächen und bereiten Grünschnitt für Kompost oder Abholung vor. Ziel ist eine saubere Basis vor Frost oder vor dem neuen Austrieb.",
+      "introBullets1": [
+        "*Sturmäste* und Reisig von Rasen und Wegen nach der winterlichen Phase",
+        "Beete und Ränder *freilegen*, damit frischer Austrieb nicht erstickt",
+        "Flächen *kehren oder laubblasen*, wo das schonend den Abschluss bringt",
+        "Grünschnitt *sacken, häufen* oder abtransportieren nach Ihrer Präferenz"
+      ],
+      "introBullets2": [
+        "Dichte *Laubschichten* vom Rasen, bevor sie zusammenmatten und Moos begünstigen",
+        "Ecken, *Zäune und Sträucher*, wo sich Laub stapelt und Feuchte hält",
+        "Leichte *Kantenglättung* am Rasen im Rahmen der saisonalen Reinigung",
+        "Optionale *Zusatzleistungen* wie leichter Heckenschnitt im selben Termin"
+      ],
+      "introAlt1": "Frühjahrsreinigung im Garten mit Ästen und gesammeltem Schnittgut.",
+      "introAlt2": "Laub harken auf Rasen und im Garten.",
+      "features": [
+        "Laub- und Abfallbeseitigung auf Rasen, in Beeten und Ecken",
+        "Rückschnitt von Stauden und Beetpflege nach Bedarf",
+        "Frische Rasenkanten und gereinigte Flächen",
+        "Leichter Heckenschnitt und Formschnitt nach Absprache",
+        "Abtransport oder Sammeln von Grünschnitt",
+        "Optional: Bereiche nahe der Dachrinne am Gartenhaus"
+      ]
+    }
+  }
+}

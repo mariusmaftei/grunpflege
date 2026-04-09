@@ -1,6 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
+    "services": "Leistungen",
     "gallery": "Galerie",
     "contact": "Kontakt"
   },
@@ -13,7 +14,7 @@
     "address": "Adresse",
     "services": "Dienstleistungen",
     "lawnCare": "Rasenpflege",
-    "gardenDesign": "Gartengestaltung",
+    "treeTrimming": "Baumschnitt / Fällung",
     "planting": "Pflanzung & Wartung",
     "irrigation": "Bewässerungssysteme",
     "landscaping": "Landschaftsbau",

@@ -31,28 +31,6 @@
   "map": {
     "title": "Hösbach Location"
   },
-  "services": {
-    "title": "Our Services",
-    "description": "We offer a comprehensive range of professional garden and landscaping services to meet all your outdoor needs.",
-    "items": {
-      "lawnCare": {
-        "title": "Lawn Care & Maintenance",
-        "description": "Regular mowing, fertilizing, aeration, and weed control to keep your lawn healthy and vibrant all year round."
-      },
-      "gardenDesign": {
-        "title": "Garden Design",
-        "description": "Custom garden designs that reflect your style and meet your needs, from modern minimalist to lush traditional."
-      },
-      "planting": {
-        "title": "Planting Services",
-        "description": "Expert selection and installation of trees, shrubs, flowers, and other plants suitable for your local climate."
-      },
-      "irrigation": {
-        "title": "Irrigation Systems",
-        "description": "Planning and installation of efficient irrigation systems to ensure your garden is optimally watered."
-      }
-    }
-  },
   "whyChoose": {
     "title": "Why Choose Us",
     "description": "With over 15 years of experience in the industry, we take pride in delivering exceptional service and results.",
@@ -81,7 +59,7 @@
     "items": [
       {
         "question": "What areas do you service?",
-        "answer": "We currently offer our garden and landscaping services throughout Green City and within a 50-kilometer radius."
+        "answer": "We currently offer our garden and landscaping services throughout Green City and within a 50-kilometer radius. For larger projects we can often travel beyond that distance, depending on the scope of work and scheduling—contact us with your address and we will confirm."
       },
       {
         "question": "Do you offer free consultations?",

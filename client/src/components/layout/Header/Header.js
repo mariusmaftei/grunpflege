@@ -5,12 +5,22 @@ import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../../UI/LanguageSwitcher/LanguageSwitcher";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import CBCLogo from "../../../assets/images/logo/CBC-logo.png";
+import siteLogo from "../../../assets/images/logo/grunpflege-logo.png";
+import {
+  PATH_GALERIE,
+  PATH_KONTAKT,
+  PATH_LEISTUNGEN,
+} from "../../../constants/paths";
+import { useLocalizedPath } from "../../../hooks/useLocalizedPath";
 
 import styles from "./Header.module.css";
 
 export default function Header() {
   const { t } = useTranslation("common");
+  const homePath = useLocalizedPath("/");
+  const leistungenPath = useLocalizedPath(PATH_LEISTUNGEN);
+  const galeriePath = useLocalizedPath(PATH_GALERIE);
+  const kontaktPath = useLocalizedPath(PATH_KONTAKT);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const buttonRef = useRef(null);
@@ -53,10 +63,10 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={styles.logo}>
-          <Link to="/" className={styles.logoLink}>
+          <Link to={homePath} className={styles.logoLink}>
             <img
-              src={CBCLogo}
-              alt="Cristian Ciobanu Logo"
+              src={siteLogo}
+              alt="Grünpflege"
               className={styles.logoImage}
             />
           </Link>
@@ -85,13 +95,22 @@ export default function Header() {
           >
             <ul className={styles.navList}>
               <li className={styles.navItem}>
-                <Link to="/" className={styles.navLink} onClick={closeMenu}>
+                <Link to={homePath} className={styles.navLink} onClick={closeMenu}>
                   {t("navigation.home")}
                 </Link>
               </li>
               <li className={styles.navItem}>
                 <Link
-                  to="/gallery"
+                  to={leistungenPath}
+                  className={styles.navLink}
+                  onClick={closeMenu}
+                >
+                  {t("navigation.services")}
+                </Link>
+              </li>
+              <li className={styles.navItem}>
+                <Link
+                  to={galeriePath}
                   className={styles.navLink}
                   onClick={closeMenu}
                 >
@@ -100,7 +119,7 @@ export default function Header() {
               </li>
               <li className={styles.navItem}>
                 <Link
-                  to="/contact"
+                  to={kontaktPath}
                   className={styles.navLink}
                   onClick={closeMenu}
                 >

@@ -262,7 +262,7 @@
 .contactInfoDescription {
   font-size: 1.125rem;
   line-height: 1.7;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 2.5rem;
 }
 
@@ -420,93 +420,6 @@
   height: 100%;
 }
 
-/* Services Section */
-.servicesSection {
-  padding: 6rem 0;
-  background-color: white;
-}
-
-.servicesContainer {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-.servicesTitle {
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 1rem;
-  color: var(--text-dark);
-}
-
-.servicesDescription {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto 3rem;
-  font-size: 1.125rem;
-  color: var(--text-muted);
-  line-height: 1.7;
-}
-
-.servicesGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.serviceItem {
-  background-color: var(--background-off);
-  border-radius: var(--radius-md);
-  padding: 2rem;
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.serviceItem:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-}
-
-.serviceItemIcon {
-  width: 60px;
-  height: 60px;
-  background-color: var(--background-accent);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  color: var(--primary);
-  transition: all 0.3s ease;
-}
-
-.serviceItem:hover .serviceItemIcon {
-  background-color: var(--primary);
-  color: white;
-}
-
-.serviceItemContent {
-  flex: 1;
-}
-
-.serviceItemTitle {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: var(--text-dark);
-}
-
-.serviceItemDescription {
-  font-size: 1rem;
-  color: var(--text-muted);
-  line-height: 1.6;
-}
-
 /* Why Choose Us Section */
 .whyChooseSection {
   padding: 6rem 0;
@@ -543,12 +456,13 @@
 }
 
 .whyChooseItem {
-  background-color: white;
+  background-color: var(--background-off);
   border-radius: var(--radius-md);
   padding: 2.5rem 2rem;
   text-align: center;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+  transition: var(--transition);
 }
 
 .whyChooseItem:hover {
@@ -559,7 +473,8 @@
 .whyChooseIcon {
   width: 60px;
   height: 60px;
-  background-color: var(--background-accent);
+  background-color: var(--background-light);
+  border: 1px solid rgba(46, 93, 50, 0.12);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -777,7 +692,6 @@
     padding: 2rem;
   }
 
-  .servicesGrid,
   .whyChooseGrid {
     grid-template-columns: 1fr;
   }
@@ -826,7 +740,6 @@
   }
 
   .contactInfoTitle,
-  .servicesTitle,
   .whyChooseTitle,
   .faqTitle {
     font-size: 1.75rem;

@@ -1,6 +1,7 @@
 # Node modules
 node_modules/
 client/node_modules/
+admin/node_modules/
 server/node_modules/
 
 # Logs
@@ -55,3 +56,6 @@ firebase-debug.log
 firestore.indexes.json
 firestore.rules
 firebase.json
+
+# Local Netlify folder
+.netlify
